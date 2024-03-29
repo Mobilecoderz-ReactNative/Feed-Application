@@ -1,0 +1,46 @@
+// {
+//   "cli": {
+//     "version": ">= 7.6.2"
+//   },
+//   "build": {
+//     "development": {
+//       "developmentClient": true,
+//       "distribution": "internal"
+//     },
+//     "preview": {
+//       "distribution": "internal"
+//     },
+//     "production": {}
+//   },
+//   "submit": {
+//     "production": {}
+//   }
+// }
+
+{
+  "build": {
+    "androidapk": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      },
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "cli": {
+    "version": ">= 7.6.2"
+  },
+  "submit": {
+    "production": {}
+  }
+}
+
